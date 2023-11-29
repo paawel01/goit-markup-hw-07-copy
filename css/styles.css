@@ -243,19 +243,19 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: var(--logo-main-color);
   background-color: var(--footer-color);
   cursor: pointer;
 
 }
 
-.button:hover {
+button:hover {
   color: #FFFFFF;
   background-color: #404BBF;
 }
 
-.button:active {
+button:active {
   color: #FFFFFF;
   background-color: #404BBF;
 }

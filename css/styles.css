@@ -211,22 +211,6 @@ address {
 
 }
 
-.header-list {
-  color: var();
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.header-list-description {
-  color: var();
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-
 
 footer {
   background-color: var(--background-color-section);
@@ -252,4 +236,39 @@ footer {
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: var(--footer-color);
+}
+
+.button {
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04;
+  color: var(--logo-main-color);
+  background-color: var(--footer-color);
+  cursor: pointer;
+
+}
+
+.button:hover {
+  color: #404BBF;
+}
+
+.button::active {
+  background-color: #404BBF;
+}
+
+.header-list {
+  color: var(--background-color-section);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.header-list-description {
+  color: var(--section-heading-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }

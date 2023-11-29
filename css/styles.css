@@ -238,7 +238,7 @@ footer {
  color: var(--footer-color);
 }
 
-.button {
+button {
   font-family: "Roboto",sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -251,10 +251,12 @@ footer {
 }
 
 .button:hover {
-  color: #404BBF;
+  color: #FFFFFF;
+  background-color: #404BBF;
 }
 
-.button::active {
+.button:active {
+  color: #FFFFFF;
   background-color: #404BBF;
 }
 

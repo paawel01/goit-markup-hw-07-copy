@@ -24,7 +24,7 @@ header {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.03em;
 }
 
 .contact-links {
@@ -37,18 +37,12 @@ header {
   letter-spacing: 0.32px;
 }
 
-button {
-  color: var();
-  background-color: var();
-}
+
 
 a:hover {
   text-decoration: underline;
 }
 
-button:hover {
-  background-color: var();
-}
 
 .logo {
   color: var(--logo-main-color);
@@ -56,7 +50,7 @@ button:hover {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 
 }
@@ -118,6 +112,10 @@ address {
 
 .nav-logo {
   color: var(--background-color-section);
+}
+
+.nav-logo:active {
+  color:#404bbf;
 }
 
 .background-heading{

@@ -82,13 +82,10 @@ letter-spacing: 0.02;
   
 }
 
-.nav-links:hover {
+.nav-links:hover, .nav-links:focus {
   color: #404bbf;
 }
 
-.nav-link:active {
-  color: #404bbf;
-}
 
 address {
   font-style: normal;
@@ -101,14 +98,10 @@ address {
   color: var(--section-heading-color)
 }
 
-.contact-list:hover {
+.contact-list:hover, .contact-list:focus {
   color:#404bbf;
 }
 
-.contact-list:active {
-  color: #404bbf;
-
-}
 
 .nav-logo {
   color: var(--background-color-section);

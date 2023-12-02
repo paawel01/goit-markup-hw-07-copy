@@ -212,7 +212,10 @@ address {
 
 .worker-name-section {
   background-color: #F4F4FD;
+  padding-top: 120px;
+ padding-bottom: 120px;
 }
+
 
 .fourth-heading {
   font-size: 36px;
@@ -221,10 +224,22 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--background-color-section);
+  margin-bottom: 72px; 
+}
+
+.workers-list {
+  display: flex; 
+  gap: 24px; 
 }
 
 .worker-photo {
   background-color: #FFFFFF;
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px; 
+}
+
+.name-position {
+  padding: 32px 0px, 
 }
 
 .name-heading {
@@ -233,6 +248,8 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--background-color-section);
+  text-align: center; 
+  margin-bottom: 8px;
 }
 
 .position-name {
@@ -240,6 +257,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--section-heading-color);
+  text-align: center;
 
 }
 

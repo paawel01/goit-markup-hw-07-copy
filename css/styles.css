@@ -168,7 +168,7 @@ address {
 }
 
 .list-main-goals-item {
-  width: calc((100% - 72px) / 4); 
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .second-heading {
@@ -187,6 +187,10 @@ address {
   color: var(--section-heading-color);
 }
 
+.index-photos-section {
+  padding-bottom: 120px; 
+}
+
 .third-heading {
   font-size: 36px;
   line-height: 1.11;
@@ -194,7 +198,16 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--background-color-section);
+  margin-bottom: 72px; 
+}
 
+.photos-section-list {
+  display: flex; 
+  gap: 24px; 
+}
+
+.photo-section-item {
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .worker-name-section {

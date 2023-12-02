@@ -128,18 +128,23 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   color:#FFFFFF;
+  
 
 }
 
 .order-service-button {
-  background-color: #4D5AE5;
+  background-color:var(--logo-main-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  
+  display: block; 
+  min-width: 169px;
+  height: 56px;
+  border: none; 
+  border-radius: 4px; 
 
 }
 
@@ -291,6 +296,7 @@ display: flex;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  border: 1px solid #e7e9fc;
 }
 
 .header-pages-arrange {
@@ -333,10 +339,7 @@ display: flex;
 }
 
 .button-portfolio {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 12px 24px;
   border: 1px solid var(#E7E9FC);
   border-radius: 4px;
 }

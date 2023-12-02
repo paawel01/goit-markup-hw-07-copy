@@ -128,6 +128,7 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   color:#FFFFFF;
+  max-width: 496px; 
   
 
 }
@@ -156,12 +157,27 @@ address {
   background-color: #404BBF;
 }
 
+.main-goals-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.list-main-goals {
+  display: flex; 
+  gap: 24px;
+}
+
+.list-main-goals-item {
+  width: calc((100% - 72px) / 4); 
+}
+
 .second-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--background-color-section);
+  margin-bottom: 8px;
 }
 
 .main-goal-text {

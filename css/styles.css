@@ -52,7 +52,7 @@ a:hover {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  
 
 }
 
@@ -62,6 +62,8 @@ a:hover {
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 .studio-link {
@@ -80,6 +82,8 @@ letter-spacing: 0.02;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--background-color-section);
+  padding-top: 24px; 
+  padding-bottom: 24px;
   
 }
 
@@ -124,9 +128,6 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   color:#FFFFFF;
-  max-width: 496px;
-
-
 
 }
 
@@ -138,11 +139,7 @@ address {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
+  
 
 }
 
@@ -298,4 +295,13 @@ display: flex;
 .header-pages-arrange {
   display: flex;
   align-items: center; 
+}
+
+.aaa {
+  margin-right: 76px,
+}
+
+.bbb {
+  display: flex; 
+  gap: 40px;
 }

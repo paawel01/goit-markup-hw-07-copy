@@ -220,7 +220,7 @@ address {
 }
 
 .photo-section-item {
-  flex-basis: calc((100% - 3 * 16px) / 3);
+  width: calc(100% - 48px);
 }
 
 .worker-name-section {

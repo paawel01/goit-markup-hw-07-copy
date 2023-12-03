@@ -58,6 +58,8 @@ a:hover {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px
+
   
 
 }
@@ -366,15 +368,6 @@ display: flex;
 .header-pages-arrange {
   display: flex;
   align-items: center; 
-}
-
-.studio-logo {
-  margin-right: 76px,
-}
-
-.nav-menu-studio {
-  display: flex; 
-  gap: 40px;
 }
 
 .header-portfolio {

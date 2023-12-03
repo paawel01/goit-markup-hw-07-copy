@@ -362,11 +362,11 @@ display: flex;
   align-items: center; 
 }
 
-.aaa {
+.studio-logo {
   margin-right: 76px,
 }
 
-.bbb {
+.nav-menu-studio {
   display: flex; 
   gap: 40px;
 }

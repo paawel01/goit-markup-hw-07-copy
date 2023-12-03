@@ -420,7 +420,7 @@ display: flex;
 
 .button-portfolio {
   padding: 12px 24px;
-  border: 1px solid var(--container-color);
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
 
@@ -445,7 +445,7 @@ display: flex;
 
 .app-concept-portfolio {
   padding: 32px 16px;
-  border: 1px solid var(--container-color);
+  border: 1px solid #e7e9fc;
   border-top: none;
 
 }

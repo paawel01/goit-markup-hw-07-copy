@@ -390,13 +390,12 @@ display: flex;
 }
 
 .contacts-portfolio {
-  margin-right: 76px,
+  display: flex;
+  align-items: center; 
 }
 
-.portfolio-menu {
-  display: flex; 
-  gap: 40px;
-}
+
+
 
 .visually-hidden {
   position: absolute;

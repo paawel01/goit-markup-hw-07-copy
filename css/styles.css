@@ -440,7 +440,7 @@ display: flex;
 }
 
 .list-images {
-  width: calc((100% - 48px)/3);
+  width: calc((100% - 48px) /3);
 }
 
 .app-concept-portfolio {

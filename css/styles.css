@@ -12,7 +12,7 @@
  --footer-color: #F4F4FD;
  --link-hover-focus: #404bbf;
  --container-color: #e7e9fc;
- 
+
 
 
 }
@@ -420,7 +420,7 @@ display: flex;
 
 .button-portfolio {
   padding: 12px 24px;
-  border: 1px solid var(#E7E9FC);
+  border: 1px solid var(--container-color);
   border-radius: 4px;
 }
 
@@ -445,7 +445,7 @@ display: flex;
 
 .app-concept-portfolio {
   padding: 32px 16px;
-  border: 1px solid var(#E7E9FC);
+  border: 1px solid var(--container-color);
   border-top: none;
 
 }

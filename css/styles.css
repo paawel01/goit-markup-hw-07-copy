@@ -133,6 +133,11 @@ address {
   background-color: var(--background-color-section);
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img17.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
 }
 
 .heading-title {
@@ -183,6 +188,18 @@ address {
 .list-main-goals-item {
   flex-basis: calc((100% - 72px) / 4);
 }
+
+
+.main-goals-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 
 .second-heading {
   font-weight: 500;

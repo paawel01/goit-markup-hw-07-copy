@@ -322,7 +322,11 @@ address {
 
 }
 
-.socials:hover, .socials:focus {
+.socials:hover {
+  background-color: #404bbf;
+}
+
+.socials:focus {
   background-color: #404bbf;
 }
 

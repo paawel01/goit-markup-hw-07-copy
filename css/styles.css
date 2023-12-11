@@ -548,6 +548,16 @@ display: flex;
 
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo {
+margin-right: 120px;
+
+}
+
 .social-media-footer {
   font-weight: 500;
   font-size: 16px;
@@ -586,5 +596,5 @@ display: flex;
 
 .footer-icon {
   fill: var(--footer-color);
-  
+
 }

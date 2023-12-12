@@ -572,12 +572,13 @@ gap: 332px;
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
   
 }
 
+
+
 .footer-logo {
-margin-right: 120px;
+gap: 120px;
 
 }
 

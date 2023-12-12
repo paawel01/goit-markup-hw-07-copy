@@ -580,6 +580,10 @@ margin-right: 120px;
 
 }
 
+.footer-text {
+  gap: 120px;
+}
+
 .social-media-footer {
   font-weight: 500;
   font-size: 16px;

@@ -572,12 +572,10 @@ gap: 332px;
 .footer-container {
   display: flex;
   align-items: baseline;
+  gap: 120px;
   
 }
 
-.div-item {
-  gap: 120px;
-}
 
 .social-media-footer {
   font-weight: 500;

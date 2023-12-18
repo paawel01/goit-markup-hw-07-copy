@@ -73,6 +73,15 @@ a:hover {
 
 .link {
   text-decoration: none;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover {
+  transform: translateY(0%);;
+}
+
+.link:focus {
+  transform: translateY(0%);
 }
 
 .list {
@@ -530,6 +539,7 @@ gap: 332px;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-portfolio:hover {
@@ -644,6 +654,10 @@ flex-shrink: 0;
   border-radius: 4px;
   background: #FCFCFC;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+
+.modal-btn {
+  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .close-btn {

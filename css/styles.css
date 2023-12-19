@@ -567,6 +567,7 @@ gap: 332px;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
 .button-portfolio:hover {
@@ -588,7 +589,15 @@ gap: 332px;
 
 .list-images {
   width: calc((100% - 48px) /3);
-  
+ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+}
+
+.list-images:hover {
+  transform: translateY(0%);
+}
+
+.list-images:focus {
+  transform: translateY(0%);
 }
 
 .list-images-item {

@@ -127,7 +127,7 @@ letter-spacing: 0.02;
   
 }
 
-.nav::after {
+.nav-links::after {
   content: "";
   position: absolute;
   left: 0;

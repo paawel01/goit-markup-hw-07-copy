@@ -153,7 +153,8 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--section-heading-color)
+  color: var(--section-heading-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .contact-list:hover, .contact-list:focus {
@@ -204,6 +205,7 @@ address {
   height: 56px;
   border: none; 
   border-radius: 4px; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 
@@ -344,6 +346,7 @@ address {
 .social-media-list-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
 
@@ -391,7 +394,7 @@ address {
 .client-list-item {
   width: calc((100% - 120px) / 6); 
   height: 88px;
-
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
 .client-link {
@@ -634,6 +637,7 @@ gap: 332px;
 .social-media-footer-list-item {
   width: 40px;
   height: 40px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 

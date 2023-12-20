@@ -415,13 +415,25 @@
 
     <div class="backdrop is-hidden" data-modal>
    <div class="modal">
+    <p class="form-heading">Leave your contacts and we will call you back</p>
+    <div class="form-wrapper">
+      <form>
+        <div class="name-wrapper"></div>
+       <label class="form-name">Name</label>
+       <div class="input-wrapper">
+        <input  id="user-name" name="user-name"  type="text" class="input-element">
+        <svg width="18" height="24" class="name-icon">
+          <use href=""></use>
+        </svg>
+       </div>
+      </form>
+    </div>
     <button type="button" class="close-btn" data-modal-close>
       <svg width="8" height="8" class="close-btn-icon">
         <use href="./images/icons.svg#icon-cross"></use>
       </svg>
     </button>
-
-  </div>
+   </div>
   </div>
   <script src="./modal.js"></script>
   </body>

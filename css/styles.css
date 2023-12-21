@@ -893,4 +893,27 @@ margin-bottom: 8px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
     border-radius: 4px;
     color: #ffffff; 
+    gap: 24px;
+  }
+
+  .subscribe-button {
+    min-width: 165px; 
+    height: 40px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: "Roboto", sans-serif; 
+    font-size: 16px; 
+    font-weight: 500; 
+    line-height: 1.5; 
+    letter-spacing: 0.04em; 
+    color: #ffffff; 
+    cursor: pointer;
+    background-color: #4D5AE5; 
+    border: none; 
+    border-radius: 4px;
+  }
+
+  .subscribe-button-icon {
+    margin-left: 16px; 
   }

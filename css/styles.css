@@ -794,7 +794,7 @@ margin-bottom: 8px;
   fill: #4D5AE5; 
 }
 
-.coment-wrapper {
+.comment-wrapper {
   margin-bottom: 16px;
 }
 
@@ -845,6 +845,7 @@ margin-bottom: 8px;
 
 .privacy-policy-link {
   color: var(--logo-main-color);
+ 
   }
 
   .form-button {

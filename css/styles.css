@@ -921,3 +921,9 @@ margin-bottom: 8px;
   textarea:focus {
     border-color: #4D5AE5; 
   }
+
+  .privacy-policy-text:checked {
+    background-color: var(--link-hover-focus);
+    border: none;
+    fill: var(--footer-color);
+  }

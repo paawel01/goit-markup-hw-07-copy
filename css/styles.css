@@ -917,3 +917,6 @@ margin-bottom: 8px;
     margin-left: 16px; 
   }
 
+  textarea:focus {
+    border-color: #4D5AE5; 
+  }

@@ -878,6 +878,7 @@ margin-bottom: 8px;
 
 .footer-form {
   display: flex;
+  gap: 24px;
   }
 
   .form-box-text {

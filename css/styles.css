@@ -922,7 +922,11 @@ margin-bottom: 8px;
     border-color: #4D5AE5; 
   }
 
-  .privacy-policy-text:checked {
+  .input-wrapper:focus-within {
+    fill: #4D5AE5;
+  }
+
+  .privacy-item:checked + .condition-privacy-terms .privacy-policy-text {
     background-color: var(--link-hover-focus);
     border: none;
     fill: var(--footer-color);

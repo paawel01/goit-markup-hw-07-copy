@@ -620,6 +620,7 @@ justify-content: space-between;
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between; 
   
   
 }

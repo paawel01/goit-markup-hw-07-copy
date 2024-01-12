@@ -415,7 +415,7 @@
       <p class="footer-form-text">Subscribe</p>
       <form class="footer-form">
         <label class="form-text-suggestion">
-          <input name="subscribe" type="email" placeholder="E-mail" class="form-box-text">
+          <input name="subscribe" type="email" placeholder="E-mail" class="form-box-text" required>
         </label>
         <button type="submit" class="subscribe-button">Subscribe
           <svg width="24" height="24" class="subscribe-button-icon">
@@ -448,7 +448,7 @@
       <div class="wrapper">
         <label for="user-name" class="form-name">Phone</label>
         <div class="input-wrapper">
-      <input id="phone-number" name="user-name" type="number" class="input-element" required>
+      <input id="phone-number" name="user-name" type="tel" class="input-element" required>
         <svg width="18" height="24" class="name-icon">
           <use href="./images/icons.svg#icon-phone"></use>
         </svg>
@@ -468,7 +468,7 @@
         <textarea id="user-comment" name="user-comment" placeholder="Text input" class="text-element" required></textarea>
       </div>
       <div class="choose-label">
-      <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="privacy-item visually-hidden">
+      <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="privacy-item visually-hidden" required>
       <label for="user-privacy" class="condition-privacy-terms">
         <span class="privacy-policy-text">
           <svg width="10" height="8" class="checkbox-icon">

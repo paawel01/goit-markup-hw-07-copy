@@ -33,7 +33,7 @@ header {
 .link {
   text-decoration: none;
   color: var(--background-color-section);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -43,7 +43,7 @@ header {
 .contact-links {
   text-decoration: none;
   color: var();
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -91,7 +91,7 @@ header {
 
 .studio-link {
 color: var(--background-color-section);
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;

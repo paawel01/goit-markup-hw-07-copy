@@ -991,8 +991,21 @@ justify-content: space-between;
 .menu-mobile {
   display: flex;
   flex-flow: column nowrap;
+  background-color: var(--background-color);
+  position:fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 100vh;
+
 }
 
+.menu-mobile .button-container {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  padding-top: 24px;
+  padding-right: 24px;
+}
   }
 
   @media (min-width: 768px) and (max-width: 1157px) {

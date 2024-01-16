@@ -25,12 +25,6 @@ color: var(--section-heading-color);
 background-color: var(--background-color);
 }
 
-html,body {
-  width: 100vw;
-  min-width: 100%;
-  overflow-x: hidden;
-}
-
 header {
   background-color: var(--background-color);
 }
@@ -965,32 +959,6 @@ margin-bottom: 8px;
   }
 
   @media (min-width: 480px) and (max-width: 767px) {
-.header-pages > .header-pages-arrange .list,
-.header-pages .contacts {
-  display: none;
-}
-
-.js-menu-container {
-  display: none;
-}
-
-.js-menu-container.is-open {
-  display: block;
-}
-
-.container {
- width: 100%;
-  max-width: 767px;
-}
-
-.header-pages-arrange {
-width: 100%;
-justify-content: space-between;
-}
-
-.menu-mobile {
-  
-}
 
   }
 

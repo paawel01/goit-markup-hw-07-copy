@@ -989,7 +989,8 @@ justify-content: space-between;
 }
 
 .menu-mobile {
-  
+  display: flex;
+  flex-flow: column nowrap;
 }
 
   }

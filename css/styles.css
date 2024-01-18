@@ -169,11 +169,13 @@ letter-spacing: 0.02;
   background-color: var(--background-color-section);
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img17.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  url(../images/img17.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  width: 100%;
   margin: auto;
 }
 
@@ -224,22 +226,17 @@ letter-spacing: 0.02;
 .list-main-goals {
   display: flex; 
   gap: 24px;
+flex-wrap: wrap;
 }
 
 .list-main-goals-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px));
   list-style-type: none;
 }
 
 
 .main-goals-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: var(--footer-color);
-  border-radius: 4px;
-  margin-bottom: 8px;
+  display: none;
 }
 
 
@@ -250,6 +247,7 @@ letter-spacing: 0.02;
   letter-spacing: 0.02em;
   color: var(--background-color-section);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .main-goal-text {
@@ -261,6 +259,7 @@ letter-spacing: 0.02;
 }
 
 .index-photos-section {
+  display: none;
   padding-bottom: 120px; 
 }
 
@@ -275,7 +274,8 @@ letter-spacing: 0.02;
 }
 
 .photos-section-list {
-  display: flex; 
+  display: flex;
+  flex-wrap: wrap; 
   gap: 24px; 
 }
 
@@ -512,7 +512,8 @@ justify-content: space-between;
 }
 
 .container {
-  width: 1158px; 
+  width: 100%;
+  max-width: 1158px; 
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -1015,6 +1016,16 @@ html, body {
     justify-content: flex-end;
   }
 
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .background-heading {
+      background-image: 
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+       url("/images/people-office@2x.jpg");
+    }
+  }
+
     @media (min-width: 480px) {
 
 }
@@ -1023,9 +1034,47 @@ html, body {
     .header-pages  {
       display: flex;
       }
+   
+      .list-main-goals-item {
+        flex-basis: calc((100% - 72px) / 2);
+        list-style-type: none;
+      }
+
+      .second-heading {
+        text-align: left;
+      }
+
+      .index-photos-section {
+        display: block;
+        }
       
+        .photo-section-item {
+          flex-basis: calc(50% - 24px);
+        }
+
   }
 
   @media (min-width: 1158px) {
-    
+    .list-main-goals {
+     flex-wrap: nowrap;
+    }
+
+    .main-goals-icons {
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--footer-color);
+  border-radius: 4px;
+  margin-bottom: 8px;
+    }
+
+    .list-main-goals-item {
+      flex-basis: calc((100% - 72px) / 4);
+      list-style-type: none;
+    }
+
+    .photos-section-list {
+      flex-wrap: nowrap;
+    }
   }

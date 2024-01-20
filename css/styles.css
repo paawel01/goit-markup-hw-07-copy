@@ -103,8 +103,8 @@ letter-spacing: 0.02;
 }
 
 .nav-links {
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--background-color-section);
@@ -1208,6 +1208,22 @@ html, body {
           
           }
 
+          .nav-links {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--background-color-section);
+            padding-top: 24px; 
+            padding-bottom: 24px;
+            display: inline-block;
+            position: relative;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+            
+            
+          }
+          
+
           
       
         }
@@ -1329,5 +1345,19 @@ flex-wrap: wrap;
   font-weight: 400;
 }
 
+.nav-links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--background-color-section);
+  padding-top: 24px; 
+  padding-bottom: 24px;
+  display: inline-block;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+  
+  
+}
 
   }

@@ -1043,6 +1043,21 @@ html, body {
     align-items: center;
    }
 
+   .menu-toggle {
+    min-height: 40px;
+    max-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+   }
+
 
 
 
@@ -1133,6 +1148,10 @@ html, body {
           display: none;
          }
 
+         .menu-toggle {
+          display: none;
+         }
+
       
         }
 
@@ -1219,6 +1238,10 @@ html, body {
 }
 
 .js-menu-container {
+  display: none;
+ }
+
+ .menu-toggle {
   display: none;
  }
 

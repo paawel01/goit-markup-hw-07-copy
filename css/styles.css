@@ -1081,6 +1081,11 @@ html, body {
     flex-flow: column nowrap;
    }
 
+   .social-media-footer-list-mobile {
+    gap: 56px;
+    display: flex;
+  }
+
  
 
   

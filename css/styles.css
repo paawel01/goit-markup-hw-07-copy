@@ -990,7 +990,7 @@ html, body {
       display: flex;
       max-width: 480px;
       justify-content: space-between;
-      display: none;
+      
     }
  
 .mobile-menu-layout button {
@@ -1062,7 +1062,7 @@ html, body {
         color: var(--link-hover-focus);
       }
 
-    
+  
 
     }
 
@@ -1123,6 +1123,10 @@ html, body {
 
         .footer-form-text {
           text-align: unset;
+        }
+
+        .mobile-menu-layout {
+          display: none;
         }
 
       
@@ -1204,6 +1208,10 @@ html, body {
  }
 .index-photos-section {
   display: flex;
+}
+
+.mobile-menu-layout {
+  display: none;
 }
 
   }

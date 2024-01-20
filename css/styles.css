@@ -59,7 +59,8 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px
+  margin-right: 76px;
+
 
 }
 
@@ -89,6 +90,8 @@ header {
   gap: 40px;
 }
 
+
+
 .studio-link {
 color: var(--background-color-section);
 font-family: "Roboto", sans-serif;
@@ -109,7 +112,6 @@ letter-spacing: 0.02;
   padding-bottom: 24px;
   display: inline-block;
   position: relative;
-  color: var(--link-hover-focus);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
   
   
@@ -149,7 +151,7 @@ letter-spacing: 0.02;
   color: var(--section-heading-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
   display: inline-block;
-  padding: 24px 0;
+ 
 }
 
 .contact-list:hover, .contact-list:focus {
@@ -471,6 +473,7 @@ button {
   color: var(--logo-main-color);
   background-color: var(--footer-color);
   cursor: pointer;
+  display: none;
 
 }
 
@@ -512,7 +515,6 @@ img {
 
 .header-pages {
 display: flex;
-gap: 332px;
 justify-content: space-between;
 }
 
@@ -642,7 +644,6 @@ justify-content: space-between;
 .footer-container {
   display: flex;
   align-items: baseline;
-  flex-direction: column;
   gap: 72px;
   align-items: center;
 }
@@ -660,6 +661,7 @@ justify-content: space-between;
   letter-spacing: 0.02em;
   color: var(--background-color);
   margin-bottom: 16px;
+  text-align: center;
 
 }
 
@@ -907,6 +909,7 @@ margin-bottom: 8px;
   line-height: 1.5;
   letter-spacing: 0.02em; 
   color: var(--background-color);
+  text-align: center;
 }
 
 .footer-form {
@@ -985,6 +988,7 @@ html, body {
       display: flex;
       max-width: 480px;
       justify-content: space-between;
+      display: none;
     }
  
 .mobile-menu-layout button {
@@ -1038,6 +1042,8 @@ html, body {
    }
 
 
+
+
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -1053,7 +1059,10 @@ html, body {
       .link-active {
         color: var(--link-hover-focus);
       }
-}
+
+    
+
+    }
 
   @media (min-width: 768px) {
     .header-pages  {
@@ -1070,7 +1079,7 @@ html, body {
       }
 
       .index-photos-section {
-        display: block;
+        display: none;
         }
       
         .photo-section-item {
@@ -1081,6 +1090,21 @@ html, body {
           max-width: 768px; 
          }
 
+        .list-layout {
+          flex-direction: column;
+          gap: 12px;
+        }
+
+        .contact-list {
+          padding: 24 0;
+        }
+
+
+   
+
+       
+
+        
     
       
   }
@@ -1117,4 +1141,35 @@ html, body {
     padding-top: 188px;
  }
    
+ .list-layout {
+  flex-direction: row;
+  gap: 40px;
+  
+ }
+
+ .contacts {
+  align-self: center;
+ }
+
+ .client-list-item {
+  width: calc((100% - 120px) / 6);
+ }
+.footer-container {
+  flex-direction: unset;
+}
+ .footer-form {
+  flex-direction: unset;
+ }
+
+ .div-item {
+  align-items: unset;
+ }
+
+ .social-media-footer {
+  text-align: unset;
+ }
+ 
+ .footer-form-text {
+  text-align: unset;
+ }
   }

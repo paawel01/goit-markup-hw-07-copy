@@ -1000,16 +1000,21 @@ html, body {
 
 .js-menu-container {
  display: flex;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ height: 100vh;
+ padding: 32px;
+ background-color: #3f51b5;
+ z-index: 999;
+
+ transform: translateX(100%);
+ transition: transform 250ms ease-in-out;
 }
 
 .js-menu-container.is-open {
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: var(--background-color);
-  flex-flow: column nowrap;
+  transform: translateX(0);
 }
 
 .mobile-nav-layout .list {

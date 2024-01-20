@@ -1006,7 +1006,7 @@ html, body {
  width: 100vw;
  height: 100vh;
  padding: 32px;
- background-color: #3f51b5;
+ background-color: var(--background-color);
  z-index: 999;
 
  transform: translateX(100%);
@@ -1016,6 +1016,8 @@ html, body {
 .js-menu-container.is-open {
   transform: translateX(0);
 }
+
+
 
 
 .mobile-nav-layout .list {
@@ -1063,6 +1065,8 @@ html, body {
     border-radius: 50%;
     outline: none;
    }
+
+  
 
 
 

@@ -1076,6 +1076,15 @@ html, body {
     outline: none;
    }
 
+   .mobile-menu {
+    display: flex;
+    flex-flow: column nowrap;
+   }
+
+ 
+
+  
+
   
 
 
@@ -1198,6 +1207,8 @@ html, body {
             font-weight: 500;
           
           }
+
+          
       
         }
 

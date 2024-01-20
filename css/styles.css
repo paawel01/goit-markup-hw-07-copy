@@ -261,7 +261,7 @@ flex-wrap: wrap;
 }
 
 .index-photos-section {
-  display: none;
+  
   padding-bottom: 120px; 
 }
 
@@ -1098,6 +1098,12 @@ html, body {
         .contact-list {
           padding: 24 0;
         }
+
+        .list-layout {
+          flex-direction: column;
+          gap: 12px;
+        }
+        
 
 
    

@@ -88,6 +88,7 @@ header {
   list-style: none;
   display: flex;
   gap: 40px;
+ 
 }
 
 
@@ -1086,6 +1087,35 @@ html, body {
     display: flex;
   }
 
+  .list-mobile {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .contact-list-tel {
+    color: var(--logo-main-color);
+    font-family:"Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  .contact-list-mail {
+    color: var(--section-heading-color);
+    font-family:"Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.4px;
+  }
+
+
  
 
   
@@ -1228,11 +1258,7 @@ html, body {
             
           }
           
-
-          
-      
-        }
-
+     
 
 
    
@@ -1364,5 +1390,7 @@ flex-wrap: wrap;
   
   
 }
+
+
 
   }

@@ -999,7 +999,7 @@ html, body {
 }
 
 .js-menu-container {
- display: none;
+ display: flex;
 }
 
 .js-menu-container.is-open {
@@ -1129,6 +1129,10 @@ html, body {
           display: none;
         }
 
+        .js-menu-container {
+          display: none;
+         }
+
       
         }
 
@@ -1213,5 +1217,9 @@ html, body {
 .mobile-menu-layout {
   display: none;
 }
+
+.js-menu-container {
+  display: none;
+ }
 
   }
